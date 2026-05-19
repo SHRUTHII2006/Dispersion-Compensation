@@ -9,8 +9,6 @@ Design and simulate a fiber optic system using dispersion-compensating fiber to 
 
 Therefore, given target values for chromatic dispersion and attenuation loss plus specifications of the transmitter, fiber, and receiver, one can determine the lengths of the transmission fiber and the DCF by solving the above two equations simultaneously.
 
----
-
 ## Specifications
 - **Output power:** 0 dBm  
 - **Spectral width:** To be determined  
@@ -25,14 +23,12 @@ Therefore, given target values for chromatic dispersion and attenuation loss plu
 - Chromatic dispersion factor: –200 ps/nm-km at 1550 nm  
 - Attenuation: 0.5 dB/km at 1550 nm  
 
----
 
 ## Calculations
 1. Determine the maximum allowable fiber loss  
 2. Determine the maximum allowable chromatic dispersion  
 3. Based on the results of (1) and (2), determine the lengths of the transmission fiber and the DCF  
 
----
 
 ## Layout
 The main physical components of this layout are:
@@ -47,7 +43,6 @@ The main physical components of this layout are:
   - Three Optical Time Domain visualizers (at transmitter output, after transmission fiber, and at the end of DCF)  
   - One Optical Spectrum Analyzer (at transmitter output, used to estimate spectral width)  
 
----
 
 ## Procedure
 - Adjust the laser power to obtain 0 dBm transmission output.  
@@ -63,9 +58,8 @@ The main physical components of this layout are:
   - Minimum BER  
 - Record:  
   - Eye diagram  
-  - Optical waveforms at transmitter output, junction between fibers, and receiver input  
-
----
+  - Optical waveforms at transmitter output, junction between fibers, and receiver input
+    
 
 ## Further Simulation and Analysis
 - Set the DCF length to 0 and run the simulation again.  
@@ -75,10 +69,7 @@ The main physical components of this layout are:
 <img width="1918" height="1078" alt="opti 1" src="https://github.com/user-attachments/assets/386e671e-42d4-4912-b811-dbcab06cae9d" />
 
 
-
 <img width="1917" height="1077" alt="opti 2" src="https://github.com/user-attachments/assets/57b42a68-e6a5-4ba0-9cf4-e506fcf20e92" />
-
-
 
 
 ## Tabulation
@@ -86,7 +77,6 @@ The main physical components of this layout are:
 <img width="1039" height="1600" alt="WhatsApp Image 2026-05-11 at 16 10 30" src="https://github.com/user-attachments/assets/dc739b22-12e9-420e-b9dc-133eaceff990" />
 
 
----
 
 ## Conclusions
 Discuss the effectiveness of dispersion-compensating fiber and the ability of the calculations to engineer a viable system.
